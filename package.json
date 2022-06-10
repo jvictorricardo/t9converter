@@ -1,0 +1,23 @@
+{
+  "name": "t9translator",
+  "version": "1.0.0",
+  "description": "Translates T9 keyboard code into text and vice-versa.",
+  "main": "scripts.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "keywords": [
+    "keyboard",
+    "t9",
+    "translator"
+  ],
+  "author": "jvictorricardo",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
